@@ -1,29 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
 body{
     margin: 0;
     display: flex; 
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: white;
+    background-color: rgb(241, 66, 66);
+    font-family: 'Questrial';
 }
-div{
+.quadro{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
-    background-color: red;
+    background-color: lightgray;
     width: 100vw;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+h2{
+    width: 100vw;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+button{
+    height: 40px;
+    background-color: rgb(241, 66, 66);
+    width: 80vw;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    font-size: 14pt;
+    font-style: inherit;
+    color: white;
+}
+footer{
+    background-color: gray;
+    width: 100vw;
+    height: 35vh;
+    text-align: center;
+    justify-content: flex-end;
+    padding-top: 10px;
 }
 input{
-    height: 35px;
+    height: 40px;
     width: 80vw;
     margin: 10px;
     border-radius: 20px;
+    border: none;
+    font-size: 13pt;
+    font-family: 'Questrial';
+    text-transform: uppercase;
+    color: gray;
+    background-color: white;
 }
 
 img{
-    height: 150px;
+    height: 100px;
     justify-content: center;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
 }
