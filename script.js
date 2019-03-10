@@ -1,0 +1,2 @@
+document.getElementById(validar).style.display = "none";//torna o elemento de id ID_DO_ELEMENTO invisível.
+document.getElementById(validar).style.display = "inline";//torna o elemento de id ID_DO_ELEMENTO visível.
